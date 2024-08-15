@@ -1,0 +1,133 @@
+[/]
+device-aliases=['/org/freedesktop/UPower/devices/battery_BAT1:=ASUS A32-K55']
+enabled-applets=['panel4:left:1:separator@cinnamon.org:1', 'panel4:left:2:grouped-window-list@cinnamon.org:2', 'panel1:right:1:systray@cinnamon.org:3', 'panel4:right:4:xapp-status@cinnamon.org:4', 'panel4:right:8:notifications@cinnamon.org:5', 'panel4:right:5:removable-drives@cinnamon.org:7', 'panel4:right:6:network@cinnamon.org:10', 'panel4:right:7:sound@cinnamon.org:11', 'panel4:right:9:power@cinnamon.org:12', 'panel4:center:0:calendar@cinnamon.org:13', 'panel1:center:0:calendar@cinnamon.org:15', 'panel2:center:0:calendar@cinnamon.org:16', 'panel2:right:0:hwmonitor@sylfurd:20', 'panel4:right:3:panel-launchers@cinnamon.org:28', 'panel4:right:2:keyboard@cinnamon.org:31', 'panel4:right:1:panel-launchers@cinnamon.org:35', 'panel4:right:10:panel-launchers@cinnamon.org:36']
+next-applet-id=37
+panel-edit-mode=false
+panel-launchers=['DEPRECATED']
+panel-zone-icon-sizes='[{"left":0,"center":0,"right":0,"panelId":4},{"left":0,"center":0,"right":0,"panelId":1},{"left":0,"center":0,"right":0,"panelId":2}]'
+panel-zone-symbolic-icon-sizes='[{"left": 28, "center": 28, "right": 28, "panelId": 4}, {"left": 28, "center": 28, "right": 28, "panelId": 1}, {"left": 28, "center": 28, "right": 28, "panelId": 2}]'
+panel-zone-text-sizes='[{"left":0,"center":0,"right":0,"panelId":4},{"left":0,"center":0,"right":0,"panelId":1},{"left":0,"center":0,"right":0,"panelId":2}]'
+panels-autohide=['1:false', '2:false', '3:false', '4:false']
+panels-enabled=['4:0:top', '1:2:top', '2:1:top']
+panels-height=['1:40', '2:40', '3:40', '4:40']
+panels-hide-delay=['1:0', '2:0', '3:0', '4:0']
+panels-show-delay=['1:0', '2:0', '3:0', '4:0']
+
+[cinnamon-session]
+quit-time-delay=60
+
+[desktop/a11y/keyboard]
+bouncekeys-delay=300
+mousekeys-accel-time=300
+mousekeys-init-delay=300
+mousekeys-max-speed=10
+slowkeys-delay=300
+
+[desktop/a11y/mouse]
+dwell-threshold=10
+dwell-time=1.2
+secondary-click-time=1.2
+
+[desktop/applications/calculator]
+exec='gnome-calculator'
+
+[desktop/applications/terminal]
+exec='gnome-terminal'
+exec-arg='--'
+
+[desktop/background]
+picture-options='zoom'
+picture-uri='file:///home/abel/Downloads/wp4264345-alfa-romeo-giulia-wallpapers.jpg'
+
+[desktop/background/slideshow]
+delay=15
+image-source='xml:///usr/share/cinnamon-background-properties/linuxmint-wilma.xml'
+
+[desktop/interface]
+cursor-blink-time=1200
+cursor-theme='Bibata-Modern-Classic'
+gtk-theme='Mint-Y-Dark-Aqua'
+icon-theme='Mint-Y-Sand'
+keyboard-layout-prefer-variant-names=true
+text-scaling-factor=1.0
+
+[desktop/keybindings]
+custom-list=['custom0', 'custom1', 'custom2']
+
+[desktop/keybindings/custom-keybindings/custom0]
+binding=['Super_L']
+command='rofi -show drun'
+name='Rofi run'
+
+[desktop/keybindings/custom-keybindings/custom1]
+binding=['<Primary><Alt>Delete']
+command='powermenu'
+name='Power options'
+
+[desktop/keybindings/custom-keybindings/custom2]
+binding=['<Primary><Shift>o']
+command='open_project'
+name='Open project'
+
+[desktop/keybindings/media-keys]
+logout=@as []
+terminal=['<Super>t']
+volume-down-quiet=['<Alt>Down']
+volume-up-quiet=['<Alt>Up']
+
+[desktop/keybindings/wm]
+close=['<Super>q']
+switch-to-workspace-down=['<Alt>Tab']
+switch-windows=@as []
+
+[desktop/media-handling]
+autorun-never=false
+
+[desktop/notifications]
+notification-duration=4
+
+[desktop/peripherals/keyboard]
+delay=uint32 500
+repeat-interval=uint32 30
+
+[desktop/screensaver]
+layout-group=0
+
+[desktop/sound]
+event-sounds=false
+
+[gestures]
+swipe-down-2='PUSH_TILE_DOWN::end'
+swipe-down-3='TOGGLE_OVERVIEW::end'
+swipe-down-4='VOLUME_DOWN::end'
+swipe-left-2='PUSH_TILE_LEFT::end'
+swipe-left-3='WORKSPACE_NEXT::end'
+swipe-left-4='WINDOW_WORKSPACE_PREVIOUS::end'
+swipe-right-2='PUSH_TILE_RIGHT::end'
+swipe-right-3='WORKSPACE_PREVIOUS::end'
+swipe-right-4='WINDOW_WORKSPACE_NEXT::end'
+swipe-up-2='PUSH_TILE_UP::end'
+swipe-up-3='TOGGLE_EXPO::end'
+swipe-up-4='VOLUME_UP::end'
+tap-3='MEDIA_PLAY_PAUSE::end'
+
+[launcher]
+check-frequency=300
+memory-limit=2048
+
+[muffin]
+tile-maximize=true
+
+[settings-daemon/peripherals/keyboard]
+numlock-state='off'
+
+[settings-daemon/plugins/power]
+lid-close-ac-action='suspend'
+lid-close-battery-action='suspend'
+sleep-display-ac=0
+sleep-display-battery=1800
+sleep-inactive-ac-timeout=0
+sleep-inactive-battery-timeout=0
+
+[theme]
+name='Mint-Y-Dark-Aqua'
