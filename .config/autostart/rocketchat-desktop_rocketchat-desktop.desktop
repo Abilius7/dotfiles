@@ -1,0 +1,17 @@
+[Desktop Entry]
+X-SnapInstanceName=rocketchat-desktop
+Name=Rocket.Chat
+Exec=env BAMF_DESKTOP_FILE_HINT=/var/lib/snapd/desktop/applications/rocketchat-desktop_rocketchat-desktop.desktop /snap/bin/rocketchat-desktop %U
+Terminal=false
+Type=Application
+Icon=/snap/rocketchat-desktop/680/meta/gui/icon.png
+StartupWMClass=Rocket.Chat
+MimeType=x-scheme-handler/rocketchat;
+Comment=Official OSX, Windows, and Linux Desktop Clients for Rocket.Chat
+Categories=GNOME;GTK;Network;InstantMessaging;
+X-GNOME-Autostart-enabled=true
+NoDisplay=false
+Hidden=false
+Name[en_IE]=Rocket.Chat
+Comment[en_IE]=Official OSX, Windows, and Linux Desktop Clients for Rocket.Chat
+X-GNOME-Autostart-Delay=0

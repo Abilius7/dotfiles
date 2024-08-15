@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=PhpStorm
+Icon=/opt/PhpStorm-241.18968.24/bin/phpstorm.svg
+Exec="/opt/PhpStorm-241.18968.24/bin/phpstorm.sh" %f
+Comment=Lightning-smart PHP IDE
+Categories=Development;IDE;
+Terminal=false
+StartupWMClass=jetbrains-phpstorm
+StartupNotify=true

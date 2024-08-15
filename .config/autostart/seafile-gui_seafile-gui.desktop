@@ -1,0 +1,14 @@
+[Desktop Entry]
+X-SnapInstanceName=seafile-gui
+Name=Seafile
+Comment=Seafile desktop sync client
+Exec=env BAMF_DESKTOP_FILE_HINT=/var/lib/snapd/desktop/applications/seafile-gui_seafile-gui.desktop /snap/bin/seafile-gui
+Icon=/snap/seafile-gui/20/meta/gui/seafile-gui.png
+Type=Application
+Categories=Network;FileTransfer;
+X-GNOME-Autostart-enabled=true
+NoDisplay=false
+Hidden=false
+Name[en_IE]=Seafile
+Comment[en_IE]=Seafile desktop sync client
+X-GNOME-Autostart-Delay=0

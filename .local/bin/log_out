@@ -1,0 +1,4 @@
+#!/usr/bin/env sh
+current_user=$(eval "whoami")
+
+pkill -u "$current_user"

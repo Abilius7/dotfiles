@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Exec=/home/abel/Documents/start_up_scripts/open_devilbox.sh
+X-GNOME-Autostart-enabled=true
+NoDisplay=false
+Hidden=false
+Name[en_IE]=Devilbox
+Comment[en_IE]=No description
+X-GNOME-Autostart-Delay=0

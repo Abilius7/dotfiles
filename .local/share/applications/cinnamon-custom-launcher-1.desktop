@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Power menu
+Exec=powermenu
+Comment=
+Terminal=false
+PrefersNonDefaultGPU=false
+Icon=/usr/share/icons/Adwaita/symbolic/actions/system-shutdown-symbolic.svg
+Type=Application
