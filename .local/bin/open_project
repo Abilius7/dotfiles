@@ -1,1 +1,4 @@
-ls -1 ~/Apps/DockerApps/devilbox/data/www/ | rofi -show -dmenu | xargs -I_ /opt/PhpStorm-241.18968.24/bin/phpstorm.sh ~/Apps/DockerApps/devilbox/data/www/_/htdocs/_ > /dev/null 2>&1 &
+find ~/Apps/DockerApps/devilbox/data/www/*/ -maxdepth 0 -type d | \
+cut -d "/" -f 9 | \
+rofi -show -dmenu | \
+xargs -I_ /opt/PhpStorm-241.18968.24/bin/phpstorm.sh ~/Apps/DockerApps/devilbox/data/www/_/htdocs/_ > /dev/null 2>&1 &
