@@ -144,5 +144,4 @@ source "$OSH"/oh-my-bash.sh
 # alias bashconfig="mate ~/.bashrc"
 # alias ohmybash="mate ~/.oh-my-bash"
 alias ls='lsd'
-alias devilbox="cd /home/abel/Apps/DockerApps/devilbox/ && sh shell.sh"
 export PATH=$HOME/.local/bin:$PATH
